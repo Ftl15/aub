@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Maxim Svirin WebDevelopment" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Maxim Svirin WebDevelopment</title>
+</head>
+
+<body>
+    <div id="slide1" class="slide">
+        <div id="header" class="enabled"></div>
+        <div class="innerSlide">
+            <div class="title">Slide #1</div>
+            <div><button class="button" onclick="scrollToElement('slide2')">Next</button></div>
+        </div>
+    </div>
+    <div id="slide2" class="slide">
+        <div class="innerSlide">
+            <div class="title">Slide #2</div>
+            <div><button class="button" onclick="scrollToElement('slide3')">Next</button></div>
+        </div>
+    </div>
+    <div id="slide3" class="slide">
+        <div class="innerSlide">
+            <div class="title">Slide #3</div>
+            <div><button class="button" onclick="scrollToElement('slide4')">Next</button></div>
+        </div>
+    </div>
+    <div id="slide4" class="slide">
+        <div class="innerSlide">
+            <div class="title">Slide #4</div>
+            <div><button class="button" onclick="scrollToElement('slide5')">Next</button></div>
+        </div>
+    </div>
+    <div id="slide5" class="slide">
+        <div class="innerSlide">
+            <div class="title">Slide #5</div>
+        </div>
+    </div>
+    <div class="goToTop">
+        <img class="topImage" src="./images/go-to-top.png" onclick="scrollToElement('slide1')" alt="" />
+    </div>
+    <script src="./scripts/script.js"></script>
+</body>
+
+</html>
