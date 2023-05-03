@@ -1,48 +1,309 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta name="description" content="Maxim Svirin WebDevelopment" />
     <link rel="stylesheet" href="./styles/style.css" />
     <title>Maxim Svirin WebDevelopment</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div id="slide1" class="slide">
-        <div id="header" class="enabled"></div>
-        <div class="innerSlide">
-            <div class="title">Slide #1</div>
-            <div><button class="button" onclick="scrollToElement('slide2')">Next</button></div>
+      <div id="header" class="enabled">
+        <div class="menu">
+          <button class="menu_item" onclick="scrollToElement('slide1')">Entwickler</button>
+          <button class="menu_item" onclick="scrollToElement('slide2')">Spezialization</button>
+          <button class="menu_item" onclick="scrollToElement('slide3')">Arten der Entwicklern</button>
+          <button class="menu_item" onclick="scrollToElement('slide4')">Tätigkeit und Kompetenzen</button>
+          <button class="menu_item" onclick="scrollToElement('slide5')">Vor und Nachteile</button>
+          <button class="menu_item" onclick="scrollToElement('slide6')">Fragen</button>
         </div>
+      </div>
+      <div class="innerHomeSlide homeSlide">
+        <div class="contentSlide">
+          <div class="home">
+            <div class="home_topic">
+              <h1>Wer ist ein Softwareentwickler?</h1>
+              <p>
+                  Ein Entwickler ist ein Entwickler von Algorithmen und Computerprogrammen. <br />
+                  Er schreibt sie in speziellen Sprachen. Auf der ganzen Welt sind Entwickler sehr gefragt, <br />
+                  ihre Arbeit wird gut bezahlt. <br />
+                  TeamLead und TechLead (hochqualifizierte Spezialisten) erhalten mehr. <br />
+                  Sie können in jedem Alter ein Entwickler werden. <br />
+                  Der Beruf eignet sich für Männer und Frauen mit guten analytischen Fähigkeiten, Logik, <br />
+                  kenntnisse der Mathematik (in einigen Bereichen der Entwicklung) und unbedingt der englischen Sprache. <br />
+                  Bei der Programmierung werden nicht nur praktische Fähigkeiten, sondern auch Ideen geschätzt.
+              </p>
+            </div>
+            <div class="home_image"><img src="./images/home_office.jpg" /></div>
+          </div>
+        </div>
+      </div>
     </div>
     <div id="slide2" class="slide">
-        <div class="innerSlide">
-            <div class="title">Slide #2</div>
-            <div><button class="button" onclick="scrollToElement('slide3')">Next</button></div>
+      <div class="innerSlide">
+        <div class="contentSlide">
+          <div class="dubble">
+            <div>
+              <h1>Spezialization</h1>
+              <p>Entwickler können je nach Spezialisierung in zwei große Kategorien eingeteilt werden.</p>
+            </div>
+          </div>
+          <div class="dubble_content">
+            <div class="home_topic">
+                <h2>Anwendungsentwickler</h2>
+               <p>
+                   Entwickeln Anwendungssoftware - Spiele' <br />
+                   buchhaltungsprogramme ‚ Editoren' Boten usw. Zu ihrem Arbeitsgebiet gehören <br />
+                   erstellung von Softwares und Video- Audionachverfolgungssysteme' <br />
+                   Auch sie passen bestehende Programme an <br />
+                   für die Bedürfnisse einer bestimmten Organisation oder eines bestimmten Benutzers.
+               </p>
+               <h3>Liste einiger angewandter Spezialisierungen von Entwicklern:</h3>
+               <ul>
+                   <li>Web Anwendungen Entwickler</li>
+                   <li>iOS Entwickler</li>
+                   <li>Android Entwickler</li>
+                   <li>Datenbank Entwickler</li>
+                   <li>Spieleentwickler (GameDev)</li>
+               </ul>
+            </div>
+            <div class="home_image"><img src="./images/slide2.1.jpg" /></div>
+          </div>
+          <div class="dubble_content">
+            <div class="home_image"><img src="./images/slide2.2.jpg" /></div>
+            <div class="home_topic">
+                <h1>Systementwickler</h1>
+                <p>
+                    Sie entwickeln Betriebssysteme, Roboter, arbeiten mit Netzwerken, <br />
+                    sie schreiben Schnittstellen zu verschiedenen verteilten Datenbanken. Sie schreiben Code für Hardware. <br />
+                    Systementwickler gehören zu den seltensten und bestbezahlten. <br />
+                    Ihre Aufgabe besteht darin,'Software-Systeme (Services) zu entwickeln' <br />
+                    die wiederum das Computersystem steuern ‚wohin der Prozessor geht' <br />
+                    kommunikations- und Peripheriegeräte). Sie unterstützen auch die Arbeit <br />
+                    von ihnen erstellte Systeme (Gerätetreiber, Bootloader usw.).
+                </p>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
     <div id="slide3" class="slide">
-        <div class="innerSlide">
-            <div class="title">Slide #3</div>
-            <div><button class="button" onclick="scrollToElement('slide4')">Next</button></div>
+      <div class="innerSlide">
+        <div class="contentSlide">
+          <div class="dubble">
+            <div>
+              <h1>Arten der Entwicklern</h1>
+            </div>
+          </div>
+          <div class="dubble_content">
+            <div class="banner_image_3"></div>
+          </div>
+          <div class="dubble_content">
+            <div class="home_topic">
+                <h3>Jun, Junior, anfänger Entwickler</h3>
+                <p>
+                    Jun ist kein Null-Level-Entwickler, sondern ein Anfänger <br />
+                    Entwickler nach dem Training und etwas Übung. Bei der Arbeit führen die Junis <br /> aus
+                    beauftragte kleine Teile des Projekts, nicht das gesamte Projekt, ohne notwendigerweise <br /> darzustellen
+                    selbst das Ausmaß des Projekts. Damit du als Junior genommen wirst, kannst du selbst lernen <br />
+                    bücher lesen oder gute Programmierkurse absolvieren, in denen Sie unterrichtet werden:
+                </p>
+                <ul>
+                    <li>theoretische Basis</li>
+                    <li>Grundlagen einer Programmiersprache</li>
+                    <!-- <li>arbeiten mit XML, JSON</li>-->
+                   <li>die Grundlagen eines Frameworks</li>
+                   <li>Grundlagen der Entwicklungsumgebung (Programme zum Schreiben von Code)</li>
+                   <li>Algorithmen</li>
+                   <li>mit Konsole (Terminal) arbeiten</li>
+                   <li>Datenbankgrundlagen</li>
+               </ul>
+<p>
+                    Um sich im Vorstellungsgespräch sicherer zu fühlen, <br />
+                    man muss etwas Berufserfahrung sammeln. <br />
+                    Ein perfektes Beispiel für eine solche Arbeit könnte sein eigenes sein <br />
+                    ein Pet-Projekt (z. B. eine eigene Website oder ein selbst geschriebenes Konsolenprogramm). <br />
+                    Sie müssen sich sorgfältig auf das Vorstellungsgespräch vorbereiten, weil viele und tiefgründige Fragen gestellt werden, <br />
+                    einschließlich kann eine logische Aufgabe geben. Versuchen Sie, nicht oberflächlich zu sein. <br />
+                    Es ist in Ordnung, wenn Sie vorher viele Vorstellungsgespräche geführt haben, <br />
+                    als June Sie einstellen wird. Es gibt viele Anfänger.
+                </p>
+            </div>
+            <div class="home_image"><img src="./images/kind.png" /></div>
+          </div>
+          <div class="dubble_content">
+            <div class="home_image"><img src="./images/middle.jpg" /></div>
+            <div class="home_topic">
+              <h3>Middle, Mittlestufiges Entwickler</h3>
+              <p>
+                  Middle ist ein völlig unabhängiger Entwickler, der jede Aufgabe bewältigen kann. <br />
+                  Middle hat ein ziemlich tiefes Wissen: <br />
+              </p>
+              <ul>
+                  <li>in der Programmiersprache - seine Eigenschaften, Mängel, begrenzten Fähigkeiten</li>
+                  <li>ein oder mehrere Frameworks</li>
+                  <!-- <li>alle wichtigen Entwicklungsmethoden (SOLID, DRY, KISS, YAGNI, DIE, DDD, TD)</li> -->
+                  </ul>
+                  <p>
+                      Der Middle muss die Ziele und Ziele des Produkts verstehen, das er entwickelt, <br />
+                      und auch das Fachgebiet, in dem er tätig ist, ist gut zu verstehen, zum Beispiel das Finanzielle. <br />
+                      Es kann beispielsweise eine Aufgabe vor ihm gestellt werden: die Annahme von Zahlungen im Programm zu entwickeln. <br />
+                      Das Medium muss das Toolkit selbst auswählen, die Architektur aufbauen, <br />
+                      schreiben Sie einen Plan und genaue Fristen für die Ausführung vor. Also <br />
+                      zu seinen Aufgaben gehört auch die Verwaltungsarbeit.
+                  </p>
+                </div>
+              </div>
+              <div class="dubble_content">
+                <div class="home_topic">
+                  <h3>Senior</h3>
+                  <p>
+                      Senior ist ein hochqualifizierter Entwickler. Er ist in der Lage, die Architektur eines neuen Programms oder einer neuen Website zu entwickeln. <br />
+                      Um dieses Programm zu erstellen, sind andere Personen erforderlich. <br />
+                      Der Señor ist in der Lage, ihnen Aufgaben zu stellen und ihre Ausführung zu kontrollieren. <br />
+                      Daher muss der Senior über die Fähigkeiten des Vorgesetzten verfügen: das Ziel sehen, <br />
+                      erklären Sie es Ihren Untergebenen, inspirieren sie, trainieren sie und kontrollieren sie, <br />
+                      an Fehlern arbeiten.
+                  </p>
+                  <p>
+                      Senior versteht die Struktur und die <br />
+                      frameworks und Entwicklungswerkzeuge auf tiefste Weise. Er sieht voraus, <br />
+                      wie sich das Projekt in Zukunft verändern wird und wie es optimal unterstützt wird.
+                  </p>
+                  <p>
+                      Senior kann der Leiter einer Gruppe von Entwicklern (Teamleads) werden, <br />
+                      IT-Projektmanager, IT-Direktor des Unternehmens usw.
+                  </p>
+                </div>
+                <div class="home_image"><img src="./images/senior.jpg" /></div>
+              </div>
+            </div>
+          </div>
         </div>
-    </div>
-    <div id="slide4" class="slide">
-        <div class="innerSlide">
-            <div class="title">Slide #4</div>
-            <div><button class="button" onclick="scrollToElement('slide5')">Next</button></div>
+        <div id="slide4" class="slide">
+          <div class="innerSlide">
+            <div class="contentSlide">
+              <div class="dubble_content">
+                <div class="banner_image_4"></div>
+              </div>
+              <div class="dubble_content">
+                <div class="home_topic">
+                    <div class="mearger">
+                        <h3>Anforderungen an Entwickler</h3>
+                        <p>Liste der Programmieranforderungen:</p>
+                        <ul>
+                            <li>Englischkenntnisse upper-intermediate (überdurchschnittlich)</li>
+                            <li>Fähigkeit, als Team zu arbeiten</li>
+                            <li>kompetente gesprochene Sprache, die Fähigkeit, dem Gesprächspartner einen Gedanken zu vermitteln</li>
+                            <li>fähigkeit, abstrakt zu denken</li>
+                            <li>Kenntnisse der Mathematik (abhängig vom Umfang, z. B. Gamedev)</li>
+                            <li>Verantwortung, die Fähigkeit zu definieren und sich zeitlich zu ordnen</li>
+                            <li>Bereitschaft zum ständigen Selbstlernen</li>
+                            <li>eine höhere technische Ausbildung ist wünschenswert</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="home_topic">
+                    <div class="mearger">
+                        <h3>Wo Entwickler arbeiten</h3>
+                        <p>Entwickler haben ein breites Anwendungsspektrum an Fachkenntnissen:</p>
+                        <ul>
+                            <li>IT-Unternehmen</li>
+                            <li>Banks</li>
+                            <li>fabriken</li>
+                            <li>transportunternehmen</li>
+                            <li>kommerzielle Unternehmen</li>
+                            <li>staatliche Strukturen</li>
+                            <li>web-Studios</li>
+                            <li>Spielstudios</li>
+                            <li>forschungszentren, Universitäten</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="home_topic">
+                    <div class="mearger">
+                        <h3>Wie man ein Entwickler wird</h3>
+                        <p>Entwickler haben ein breites Anwendungsspektrum an Fachkenntnissen:</p>
+                        <ul>
+                            <li>Kurse besuchen oder selbst lernen</li>
+                            <li>Ein Pet–Projekt oder eine Praxis in Kursen absolvieren</li>
+                            <li>Einen festen Job im Junior-Status finden</li>
+                            <li>Weiter selbständig und im Kollektiv lernen</li>
+                            <li>Furchtlos neue Herausforderungen zu meistern</li>
+                        </ul>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-    </div>
-    <div id="slide5" class="slide">
-        <div class="innerSlide">
-            <div class="title">Slide #5</div>
+        <div id="slide5" class="slide">
+          <div class="innerSlide">
+            <div class="contentSlide">
+              <div class="dubble">
+                <div>
+                  <h1>Vor und Nachteile</h1>
+                </div>
+              </div>
+              <div class="dubble_content">
+                <div class="banner_image_5"></div>
+              </div>
+              <div class="dubble_content">
+                <div class="home_topic">
+                  <h3>Vorteile</h3>
+                  <ul>
+                      <li>ein weltweit gefragter Beruf</li>
+                      <li>der Entwickler ist der Beruf der Zukunft</li>
+                      <li>hohe Löhne</li>
+                      <li>es ist möglich, einen gut bezahlten Job ohne Hochschulbildung zu bekommen</li>
+                      <li>Es gibt ein Element der Kreativität im Beruf</li>
+                      <li>möglichkeit zur Remote-Arbeit</li>
+                  </ul>
+                </div>
+                <div class="home_image"><img src="./images/pros.jpg" /></div>
+              </div>
+              <div class="dubble_content">
+                <div class="home_image"><img src="./images/cons.jpg" /></div>
+                <div class="home_topic">
+                  <h3>Nachteile</h3>
+                  <ul>
+                      <li>sitzendes Beruf</li>
+                      <li>hoher Wettbewerb</li>
+                      <li>Eine sich schnell entwickelnde Industrie setzt fortlaufendes Lernen voraus, um mit anderen Schritt zu halten</li>
+                      <li>hohe Anforderungen an einen Spezialisten, es ist schwierig, für einen Anfänger in den Beruf einzusteigen, Kurse reichen oft nicht aus</li>
+                      <li>die Arbeit verläuft oft im Modus des Abrams und des Stresses</li>
+                      <li>das Ergebnis der Arbeit ist nicht immer sichtbar und spürbar</li>
+                      <li>Eintauchen in den Beruf, oft endet die Arbeit nicht mit einem Anruf</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-    </div>
-    <div class="goToTop">
-        <img class="topImage" src="./images/go-to-top.png" onclick="scrollToElement('slide1')" alt="" />
-    </div>
-    <script src="./scripts/script.js"></script>
-</body>
-
-</html>
+        <div id="slide6" class="slide">
+          <div class="innerSlide">
+            <div class="contentSlide">
+              <div class="dubble">
+                <div>
+                  <h1>Fragen?</h1>
+                </div>
+              </div>
+              <div class="dubble_content">
+                <div class="banner_image_6"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer">
+          <div>Lieben Dank zu <a href="https://pixabay.com/" target="_blank">Pixabay</a> für wudervolle Bilder</div>
+          <div>Vorstellung von Max Svirin für AuB, Klasse 9</div>
+        </div>
+        <div class="goToTop">
+          <img class="topImage" src="./images/go-to-top.png" onclick="scrollToElement('slide1')" alt="" />
+        </div>
+        <script src="./scripts/script.js"></script>
+      </body>
+    </html>

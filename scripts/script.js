@@ -7,7 +7,7 @@ document.addEventListener("scroll", (event) => {
 
   if (!ticking) {
     window.requestAnimationFrame(() => {
-      doSomething(lastKnownScrollPosition);
+      //doSomething(lastKnownScrollPosition);
       ticking = false;
     });
 
